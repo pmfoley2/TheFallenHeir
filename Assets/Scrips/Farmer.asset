@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65ee2b6a7d728a74b88cc2604f04b15f, type: 3}
+  m_Name: Farmer
+  m_EditorClassIdentifier: 
+  name: Farmer
+  dialogue:
+  - Hey, what is up?
+  - Yeah! We can finally talk to each other.
+  - Im a test dummy for the dialogue system.
+  - Bye!
+  playerDialogue:
+  - Nothing much, glad this system is working. Is it working for you?
+  - Who are you?
+  - Alright, see you later.
