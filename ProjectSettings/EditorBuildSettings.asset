@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FirstLevel.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/FirstBossFight.unity
+    guid: 29ececd39bb77fa4a9574daae47ee39c
+  - enabled: 1
+    path: Assets/Scenes/ToBeContinued.unity
+    guid: 7231bf05e38b3c2408a60cff4c35e3e5
   m_configObjects: {}

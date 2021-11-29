@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65ee2b6a7d728a74b88cc2604f04b15f, type: 3}
+  m_Name: Prisoner
+  m_EditorClassIdentifier: 
+  name: Prisoner
+  dialogue:
+  - My prince!!! What are you doing here?!?! It's not safe for you!!
+  - My prince your family.....they're... they...
+  - Oh yes your sister!! She just came through here!! But she was with that monsterous
+    king. You've got to be careful.
+  - Don't worry about me....Make them pay...
+  playerDialogue:
+  - I am here to save my family.
+  - I know.... I'm here to at least save my sister.
+  - Don't worry. At this point I've got nothing left to lose..I'll come back for
+    you.

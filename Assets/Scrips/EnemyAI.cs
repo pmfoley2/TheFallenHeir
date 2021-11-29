@@ -8,19 +8,15 @@ public class EnemyAI : MonoBehaviour
     public float lookRadius = 10f;
     Transform target;
     NavMeshAgent agent;
-    public float maxHealth = 100f;
-    public float currentHealth = 0f;
+    
     // Start is called before the first frame update
     void Start()
     {
-        currentHealth = maxHealth;
+        
         target = PlayerTracker.instance.player.transform;
         agent = GetComponent<NavMeshAgent>();
     }
-    public void TakeDamage(float amount)
-    {
-        currentHealth -= amount;
-    }
+    
     // Update is called once per frame
     void Update()
     {

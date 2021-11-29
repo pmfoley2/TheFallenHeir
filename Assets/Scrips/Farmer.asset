@@ -14,11 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Farmer
   dialogue:
-  - Hey, what is up?
-  - Yeah! We can finally talk to each other.
-  - Im a test dummy for the dialogue system.
-  - Bye!
+  - My prince...You're alive...I'm not sure exactly what happened, but I know your
+    family was taken hostage in that castle.
+  - From what I heard, it was one of the rival familes from across the river. They
+    wanted new land and heard that your father was getting sick.
+  - I'd first go over to that camp over there and try to remember as much as you
+    can about your training, and then go out and try to rescue your family.
+  - Good luck, my prince.
   playerDialogue:
-  - Nothing much, glad this system is working. Is it working for you?
-  - Who are you?
-  - Alright, see you later.
+  - Who did this?
+  - What do I do?
+  - Alright, thank you.

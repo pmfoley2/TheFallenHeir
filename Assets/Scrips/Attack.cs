@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Attack : MonoBehaviour
 {
-    public float playerDamage = 20f;
+    public int playerDamage = 20;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,11 +18,14 @@ public class Attack : MonoBehaviour
         {
             transform.Rotate(Vector3.right *90 );
         }
-        
+        if (Input.GetMouseButtonDown(1))
+        {
+            transform.Rotate(Vector3.right * 270);
+        }
     }
 
-    void OnTriggerEnter(Collider other)
+    void OnCollisionEnter(Collision other)
     {
-        other.gameObject.GetComponent<EnemyAI>().TakeDamage(playerDamage);
+        other.gameObject.GetComponent<Character>().TakeDamage(playerDamage);
     }
 }

@@ -3,6 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 
 public class BasicUI : MonoBehaviour {
+	public GameObject p;
+
 	void OnGUI() {
 		int posX = 10;
 		int posY = 10;
@@ -37,7 +39,7 @@ public class BasicUI : MonoBehaviour {
 			if (item == "health") {
 				if (GUI.Button(new Rect(posX, posY, width, height), "Use Health")) {
 					Managers.Inventory.ConsumeItem("health");
-					Managers.Player.ChangeHealth(25);
+					p.GetComponent<PlayerHealth>().ChangeHealth(25);
 				}
 			}
 

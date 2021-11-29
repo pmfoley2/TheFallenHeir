@@ -10,7 +10,7 @@ public class DialogueManager : MonoBehaviour
     bool isTalking = false;
 
     float distance;
-    float curResponseTracker = 0;
+    public float curResponseTracker = 0;
 
     public GameObject player;
     public GameObject dialogueUI;
@@ -30,7 +30,7 @@ public class DialogueManager : MonoBehaviour
     void OnMouseOver()
     {
         distance = Vector3.Distance(player.transform.position, this.transform.position);
-        if (distance <= 2.5f)
+        if (distance <= 25f)
         {
             if (Input.GetAxis("Mouse ScrollWheel") < 0f)
             {
